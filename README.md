@@ -15,5 +15,6 @@ To be more specific you could enter multiple search criteria together. For examp
 
 
 ## Summary
-In a summary statement, describe one drawback of this new design and two recommendations for further development.
-case sensitive?
+   - One drawback to this new design is that the text that the user inputs to filter the results has to be an exact match to what exists in the original dataset. If a user wants to search for UFO sightings in Arizona and enters "AR" into the state input box, there will be no results returned. The user would have to enter "ar" exactly to be able to filter the results correctly. 
+   - The data we're using for this webpage is from 2010 so for further development I would recommend updating the data to include more current information about UFO sightings. I would also recommend incorporating data from outside the US to build a more robust analysis especially since this project coincides with World UFO Day.
+
